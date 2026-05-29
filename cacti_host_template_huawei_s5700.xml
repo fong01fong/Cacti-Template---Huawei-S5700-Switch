@@ -201,19 +201,6 @@
 				<hard_return></hard_return>
 				<sequence>12</sequence>
 			</hash_100025061c04c5479a2b9975df7c9cec820c59>
-			<hash_100025f125bb46fe30a516dc6f628b3ed3986f>
-				<task_item_id>hash_0800251d12b61796586a23b7e04dee8e116e28</task_item_id>
-				<color_id>0</color_id>
-				<alpha>FF</alpha>
-				<graph_type_id>9</graph_type_id>
-				<consolidation_function_id>2</consolidation_function_id>
-				<cdef_id>0</cdef_id>
-				<value></value>
-				<gprint_id>hash_060025e9c43831e54eca8069317a2ce8c6f751</gprint_id>
-				<text_format>Min:</text_format>
-				<hard_return></hard_return>
-				<sequence>13</sequence>
-			</hash_100025f125bb46fe30a516dc6f628b3ed3986f>
 			<hash_10002519a4da64230b3896f86fa817516c3009>
 				<task_item_id>hash_0800251d12b61796586a23b7e04dee8e116e28</task_item_id>
 				<color_id>0</color_id>
@@ -225,13 +212,26 @@
 				<gprint_id>hash_060025e9c43831e54eca8069317a2ce8c6f751</gprint_id>
 				<text_format>Average:</text_format>
 				<hard_return></hard_return>
-				<sequence>14</sequence>
+				<sequence>13</sequence>
 			</hash_10002519a4da64230b3896f86fa817516c3009>
+			<hash_100025f125bb46fe30a516dc6f628b3ed3986f>
+				<task_item_id>hash_0800251d12b61796586a23b7e04dee8e116e28</task_item_id>
+				<color_id>0</color_id>
+				<alpha>FF</alpha>
+				<graph_type_id>9</graph_type_id>
+				<consolidation_function_id>2</consolidation_function_id>
+				<cdef_id>0</cdef_id>
+				<value></value>
+				<gprint_id>hash_060025e9c43831e54eca8069317a2ce8c6f751</gprint_id>
+				<text_format>Minimum:</text_format>
+				<hard_return></hard_return>
+				<sequence>14</sequence>
+			</hash_100025f125bb46fe30a516dc6f628b3ed3986f>
 			<hash_1000258be4c7ab6a7122a770d679ac075ee98d>
 				<task_item_id>hash_0800251d12b61796586a23b7e04dee8e116e28</task_item_id>
 				<color_id>0</color_id>
 				<alpha>FF</alpha>
-				<graph_type_id>1</graph_type_id>
+				<graph_type_id>9</graph_type_id>
 				<consolidation_function_id>3</consolidation_function_id>
 				<cdef_id>0</cdef_id>
 				<value></value>
@@ -5672,7 +5672,7 @@
 					</hash_1300256537b3209e0697fbec278e94e7317b52>
 					<hash_130025936472d351b7f2786a5f2ff841ea9f9d>
 						<field_name>name</field_name>
-						<data_template_id>hash_010025357e7e28a3da77a80979339b75acc2f3</data_template_id>
+						<data_template_id>hash_010025880a070f49d484a17260f12fc5f5fc1a</data_template_id>
 						<sequence>1</sequence>
 						<text>|host_description| - Errors - |query_ifName| - |query_ifAlias|</text>
 					</hash_130025936472d351b7f2786a5f2ff841ea9f9d>
@@ -6465,19 +6465,19 @@
 					</hash_13002587a659326af8c75158e5142874fd74b0>
 					<hash_130025044590c1c8c4afcf68b488b7fa3a2746>
 						<field_name>name</field_name>
-						<data_template_id>hash_010025cfcbbfa7739e4a41484e446504f0e7cb</data_template_id>
+						<data_template_id>hash_010025f8263d9a6b9e4c1bdf159e6b478b9ae4</data_template_id>
 						<sequence>1</sequence>
 						<text>|host_description| - Traffic - |query_ifName| - |query_ifAlias|</text>
 					</hash_130025044590c1c8c4afcf68b488b7fa3a2746>
 					<hash_1300254572f348fff3f26bf9d9befdceb5ee3e>
 						<field_name>rrd_maximum</field_name>
-						<data_template_id>hash_0100258d81df6bd4de03daaf56fab0f5cf4823</data_template_id>
+						<data_template_id>hash_0100255f1913e6c0033b5613b5a634171eb827</data_template_id>
 						<sequence>1</sequence>
 						<text>|query_ifSpeed|</text>
 					</hash_1300254572f348fff3f26bf9d9befdceb5ee3e>
 					<hash_130025fc88602f955b296822b4bfe9b3a7f580>
 						<field_name>name</field_name>
-						<data_template_id>hash_010025e1f6dc867750f27b5d3fc66a5422634b</data_template_id>
+						<data_template_id>hash_0100250fac20c56810ad6baf4f68ea44077af8</data_template_id>
 						<sequence>1</sequence>
 						<text>|host_description| - Traffic - |query_ifIP| - |query_ifName| (In)</text>
 					</hash_130025fc88602f955b296822b4bfe9b3a7f580>
@@ -6507,25 +6507,25 @@
 					</hash_1300257e093c535fa3d810fa76fc3d8c80c94b>
 					<hash_130025bace4480b17beb822df6b81a3dd1f9f9>
 						<field_name>name</field_name>
-						<data_template_id>hash_01002536a995f3a2fa1380c029575eb410a4ef</data_template_id>
+						<data_template_id>hash_0100257328b47350fbbd702111d0df161e6268</data_template_id>
 						<sequence>1</sequence>
 						<text>|host_description| - Traffic - |query_ifIP| - |query_ifName| (In)</text>
 					</hash_130025bace4480b17beb822df6b81a3dd1f9f9>
 					<hash_13002570f60a6efcdbeafa13aabaf012ac06b0>
 						<field_name>rrd_maximum</field_name>
-						<data_template_id>hash_010025268f41e9dd18ef9f69ebcfd6ec29184a</data_template_id>
+						<data_template_id>hash_010025fa13217bd5dd0be15054e61f99f29413</data_template_id>
 						<sequence>1</sequence>
 						<text>|query_ifSpeed|</text>
 					</hash_13002570f60a6efcdbeafa13aabaf012ac06b0>
 					<hash_13002515e5d6f460fbd584e461855eff95c820>
 						<field_name>name</field_name>
-						<data_template_id>hash_0100256b223f846a493d41a9b19cb51ec1a3d4</data_template_id>
+						<data_template_id>hash_0100255b1c687f25b5c58aeeb64aa12d2142e4</data_template_id>
 						<sequence>2</sequence>
 						<text>|host_description| - Traffic - |query_ifName| (In)</text>
 					</hash_13002515e5d6f460fbd584e461855eff95c820>
 					<hash_130025f65c53f562992c5efa8618301e39a711>
 						<field_name>name</field_name>
-						<data_template_id>hash_010025c01652a240b48f3de646dff7fdb9bc66</data_template_id>
+						<data_template_id>hash_0100257a4f03270d3d58c22919ceb84e74f6e8</data_template_id>
 						<sequence>2</sequence>
 						<text>|host_description| - Traffic - |query_ifName| (In)</text>
 					</hash_130025f65c53f562992c5efa8618301e39a711>
@@ -6543,13 +6543,13 @@
 					</hash_13002514aa2dead86bbad0f992f1514722c95e>
 					<hash_130025fbccc9c2c82f66e0776fef9ab6760c15>
 						<field_name>name</field_name>
-						<data_template_id>hash_01002572f0e31cebc74d49de97429a3091b1e2</data_template_id>
+						<data_template_id>hash_010025b478cc4b54a8403907a99503264e78c9</data_template_id>
 						<sequence>3</sequence>
 						<text>|host_description| - Traffic - |query_ifIP|/|query_ifDescr| (In)</text>
 					</hash_130025fbccc9c2c82f66e0776fef9ab6760c15>
 					<hash_130025f64b604705c556a65a1624edf61161e8>
 						<field_name>name</field_name>
-						<data_template_id>hash_0100257e55674e32c61be49a6e104fd4aec8a1</data_template_id>
+						<data_template_id>hash_010025ffc4b5f0c99cdcdf531d8bbb10ea16dc</data_template_id>
 						<sequence>3</sequence>
 						<text>|host_description| - Traffic - |query_ifIP|/|query_ifDescr| (In)</text>
 					</hash_130025f64b604705c556a65a1624edf61161e8>
@@ -6573,13 +6573,13 @@
 					</hash_130025084efd82bbddb69fb2ac9bd0b0f16ac6>
 					<hash_13002501d54cc5b6de7d6aac57f4f61ecf943f>
 						<field_name>name</field_name>
-						<data_template_id>hash_010025d1f981608eb8f28415e8a573a8f7e4f8</data_template_id>
+						<data_template_id>hash_010025aca078ca5f5a1a2ef81f22205269091a</data_template_id>
 						<sequence>4</sequence>
 						<text>|host_description| - Traffic - |query_ifDescr| (In)</text>
 					</hash_13002501d54cc5b6de7d6aac57f4f61ecf943f>
 					<hash_130025e2d52a40fc5434cfebea8a939639c255>
 						<field_name>name</field_name>
-						<data_template_id>hash_01002591544efee98dd718476412b22ec28189</data_template_id>
+						<data_template_id>hash_010025e5a6c387ea0e29c60be271a73563dc50</data_template_id>
 						<sequence>4</sequence>
 						<text>|host_description| - Traffic - |query_ifDescr| (In)</text>
 					</hash_130025e2d52a40fc5434cfebea8a939639c255>
@@ -6807,19 +6807,19 @@
 					</hash_13002558c01305ab8536a0508bf1e786f18d7a>
 					<hash_130025dfae1a6ed5c9086918f0aa784ddcfb3b>
 						<field_name>rrd_maximum</field_name>
-						<data_template_id>hash_01002597883e20d731f179388cc49545bba5b8</data_template_id>
+						<data_template_id>hash_01002539cc5097f55adc94833fce77b14e93fc</data_template_id>
 						<sequence>1</sequence>
 						<text>|query_ifSpeed|</text>
 					</hash_130025dfae1a6ed5c9086918f0aa784ddcfb3b>
 					<hash_130025ea4d3cd854ab4c51207eb9ab39130d86>
 						<field_name>name</field_name>
-						<data_template_id>hash_01002519fe658bc1c93b0d28fef99919993351</data_template_id>
+						<data_template_id>hash_0100254ae549a169c82cd1dd4656751cdb0697</data_template_id>
 						<sequence>1</sequence>
 						<text>|host_description| - Traffic - |query_ifName| - |query_ifAlias|</text>
 					</hash_130025ea4d3cd854ab4c51207eb9ab39130d86>
 					<hash_1300259df56e858516a03db9bb194e122380f1>
 						<field_name>name</field_name>
-						<data_template_id>hash_010025e99f8a28ef8ce86822e696bab17271d8</data_template_id>
+						<data_template_id>hash_01002564675ecccde93969e61dbb337fd49475</data_template_id>
 						<sequence>1</sequence>
 						<text>|host_description| - Traffic - |query_ifIP| - |query_ifName| (In-64)</text>
 					</hash_1300259df56e858516a03db9bb194e122380f1>
@@ -6855,19 +6855,19 @@
 					</hash_130025678ca9fbf50174f636b5ffe94db17567>
 					<hash_1300252569f564239331bb4f1b32af92571992>
 						<field_name>rrd_maximum</field_name>
-						<data_template_id>hash_01002556099fe7495d58797ac16e1d265b4993</data_template_id>
+						<data_template_id>hash_01002582e9d6836deebd8c38a0c02c60987ac6</data_template_id>
 						<sequence>1</sequence>
 						<text>|query_ifSpeed|</text>
 					</hash_1300252569f564239331bb4f1b32af92571992>
 					<hash_130025c9819b30874762c5eff3b0b1d3d48944>
 						<field_name>name</field_name>
-						<data_template_id>hash_0100250b41016ec2baec2ee1aeb7e77da4a871</data_template_id>
+						<data_template_id>hash_010025a3825c538ddf36ec6cf57a2d9070c541</data_template_id>
 						<sequence>1</sequence>
 						<text>|host_description| - Traffic - |query_ifIP| - |query_ifName| (In-64)</text>
 					</hash_130025c9819b30874762c5eff3b0b1d3d48944>
 					<hash_13002556c771ae606cbf3345ca04f907516321>
 						<field_name>name</field_name>
-						<data_template_id>hash_0100253e340b9dba553eb58ab0100b0e099cbc</data_template_id>
+						<data_template_id>hash_01002534571a3e65cea4d48eb2bc61d71024a1</data_template_id>
 						<sequence>2</sequence>
 						<text>|host_description| - Traffic - |query_ifName| (In-64)</text>
 					</hash_13002556c771ae606cbf3345ca04f907516321>
@@ -6891,7 +6891,7 @@
 					</hash_13002563159199bd9cbd800ea6ba8e1c7ba785>
 					<hash_130025b5510f730d4854ccab3f94cfd30386cb>
 						<field_name>name</field_name>
-						<data_template_id>hash_01002545dd93809a2d5e8bdf0f9b0a6dc45fed</data_template_id>
+						<data_template_id>hash_0100253cdf2a3cde4c29c436b8e985f3df0cf2</data_template_id>
 						<sequence>2</sequence>
 						<text>|host_description| - Traffic - |query_ifName| (In-64)</text>
 					</hash_130025b5510f730d4854ccab3f94cfd30386cb>
@@ -6915,13 +6915,13 @@
 					</hash_130025974fd712ef4d28cee1aef7651526968a>
 					<hash_130025c70059ba175237e32aa3f65aa3099632>
 						<field_name>name</field_name>
-						<data_template_id>hash_0100258deadca996bcaab74c9f54acc428c777</data_template_id>
+						<data_template_id>hash_010025cfe6cd77a618e2c5013ffdb4b9b6f1dd</data_template_id>
 						<sequence>3</sequence>
 						<text>|host_description| - Traffic - |query_ifIP|/|query_ifDescr| (In-64)</text>
 					</hash_130025c70059ba175237e32aa3f65aa3099632>
 					<hash_130025a224d8eef162e15d1558d1d23c041624>
 						<field_name>name</field_name>
-						<data_template_id>hash_0100259a5033111aa0926ea404a42f3d4380d4</data_template_id>
+						<data_template_id>hash_0100254f01ac7c054e8b8a997bbe851dd3f425</data_template_id>
 						<sequence>3</sequence>
 						<text>|host_description| - Traffic - |query_ifIP|/|query_ifDescr| (In-64)</text>
 					</hash_130025a224d8eef162e15d1558d1d23c041624>
@@ -6945,7 +6945,7 @@
 					</hash_13002562a47c18be10f273a5f5a13a76b76f54>
 					<hash_13002583f4becf854ad0b54cd028e2f1165970>
 						<field_name>name</field_name>
-						<data_template_id>hash_01002534627524c38637b42e493387c1db3ece</data_template_id>
+						<data_template_id>hash_010025048e16fd1dd0a3f662f0fe347759a3f1</data_template_id>
 						<sequence>4</sequence>
 						<text>|host_description| - Traffic - |query_ifDescr| (In-64)</text>
 					</hash_13002583f4becf854ad0b54cd028e2f1165970>
@@ -6957,7 +6957,7 @@
 					</hash_1300259569f0760c8cc01ff01770f11299ba9a>
 					<hash_13002515807921d6d7eef410fda0e860b568ae>
 						<field_name>name</field_name>
-						<data_template_id>hash_0100250dd6220d286d97ea1af98e977fa402a9</data_template_id>
+						<data_template_id>hash_010025cde280e7b5e2cf35cd9c09921d5c0ccf</data_template_id>
 						<sequence>4</sequence>
 						<text>|host_description| - Traffic - |query_ifDescr| (In-64)</text>
 					</hash_13002515807921d6d7eef410fda0e860b568ae>
@@ -7275,7 +7275,7 @@
 					</hash_1300253e3d15e614b4605abcc1ef8ad082fc74>
 					<hash_130025f6bbc066640062f0900c127b4375a2e9>
 						<field_name>name</field_name>
-						<data_template_id>hash_010025c713ad9a9eeeb6a156d829df6d54cf20</data_template_id>
+						<data_template_id>hash_0100257ace2f360b21064a2faa140594415d7d</data_template_id>
 						<sequence>1</sequence>
 						<text>|host_description| - Traffic - |query_ifName| - |query_ifAlias|</text>
 					</hash_130025f6bbc066640062f0900c127b4375a2e9>
@@ -7514,7 +7514,7 @@
 					</hash_13002525b151fcfe093812cb5c208e36dd697e>
 					<hash_130025d2805f7efd700d54769f40c9449420e3>
 						<field_name>name</field_name>
-						<data_template_id>hash_010025cceb589d1b315d5719adcbfd4faf235a</data_template_id>
+						<data_template_id>hash_010025e42c50abadff60c9b4e8658505945b8d</data_template_id>
 						<sequence>5</sequence>
 						<text>|host_description| - Traffic - |query_ifName| - |query_ifAlias|</text>
 					</hash_130025d2805f7efd700d54769f40c9449420e3>
